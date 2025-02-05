@@ -1,0 +1,31 @@
+Problem Statement: Library Management System
+Objective: Design and implement a Library Management System using Object-Oriented Programming (OOP) principles.
+
+Requirements:
+Classes and Objects:
+Create a class LibraryItem with attributes title, author, and publicationYear.
+Create subclasses Book and Magazine that inherit from LibraryItem.
+Inheritance:
+Book should have an additional attribute genre.
+Magazine should have an additional attribute issueNumber.
+Polymorphism:
+Override the displayInfo() method in both Book and Magazine to display their specific details.
+Encapsulation:
+Use private attributes in the LibraryItem class and provide public getter and setter methods.
+Abstraction:
+Make LibraryItem an abstract class and include an abstract method displayInfo().
+Interface:
+Create an interface Borrowable with methods borrowItem() and returnItem().
+Implement the Borrowable interface in the Book and Magazine classes.
+Composition:
+Create a class Library that contains a list of LibraryItem objects.
+Provide methods in the Library class to add, remove, and display all items.
+Aggregation:
+Create a class Member with attributes name and memberId.
+Establish an aggregation relationship between Library and Member where a library can have multiple members.
+Association:
+Create a class Librarian with attributes name and employeeId.
+Establish an association between Librarian and Library where a librarian manages a library.
+Static Members:
+Create a static variable totalItems in the Library class to keep track of the total number of items in the library.
+Increment totalItems whenever a new item is added to the library.

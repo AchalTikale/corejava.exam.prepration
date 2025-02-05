@@ -1,0 +1,10 @@
+Problem Statement: Custom Functional Interface for Data Processing
+You are designing a data processing system where a set of operations need to be applied to a collection of numerical data. The system should allow users to define their own custom processing logic using functional interfaces.
+Requirements:
+Create a functional interface named DataProcessor with a method that takes a List<Integer> and returns a processed List<Integer>.
+Implement at least two different processing strategies using lambda expressions:
+DoublingProcessor: Doubles each number in the list.
+FilteringProcessor: Removes numbers less t
+han a given threshold.
+Implement a method applyProcessor(DataProcessor processor, List<Integer> data) that applies the given processor to the data and returns the result.
+Demonstrate the use of the interface with lambda expressions and method references.
